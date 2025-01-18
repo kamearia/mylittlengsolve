@@ -14,12 +14,13 @@ namespace ngfem
     {
       // maybe do something with mip and trafo?
       auto pnt = mip.GetPoint();
-      return pnt[0] * pnt[1];
+      return pnt[1];
+//      return pnt[0] * pnt[1];
     }
 
     // ******************* Performance improvements **********************
   };
-
+  namespace py = pybind11;
   void ExportMyCoefficient(py::module m);
 }
 

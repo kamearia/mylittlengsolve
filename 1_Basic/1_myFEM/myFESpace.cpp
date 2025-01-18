@@ -14,16 +14,17 @@ element, and the global mesh.
 
 */
 
-
+#include <pybind11/pybind11.h>
 #include <comp.hpp>    // provides FESpace, ...
 // #include <h1lofe.hpp>
 // #include <regex>
+#include <python_ngcore.hpp>
 #include <python_comp.hpp>
 #include "myElement.hpp"
 #include "myFESpace.hpp"
 #include "myDiffOp.hpp"
 
-
+namespace py = pybind11;
 namespace ngcomp
 {
 

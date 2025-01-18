@@ -1,8 +1,9 @@
-
+#include <pybind11/pybind11.h>
 #include <fem.hpp>
 #include <python_ngstd.hpp>
 #include "myCoefficient.hpp"
 
+namespace py = pybind11;
 namespace ngfem
 {
   // Export cf to Python

@@ -11,7 +11,7 @@ My own simple integrators for the Poisson Equation
 */
 
 
-
+#include <pybind11/pybind11.h>
 #include <fem.hpp>
 #include "myElement.hpp"
 #include "myIntegrator.hpp"

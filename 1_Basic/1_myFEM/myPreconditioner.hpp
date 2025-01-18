@@ -1,7 +1,7 @@
 #ifndef MY_PRECONDITIONER_HPP
 #define MY_PRECONDITIONER_HPP
 
-
+namespace py = pybind11;
 namespace ngcomp
 {
   class MyPreconditioner : public Preconditioner

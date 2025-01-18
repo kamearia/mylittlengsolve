@@ -11,12 +11,12 @@
 
 */
 
-
+#include <pybind11/pybind11.h>
 #include <solve.hpp>    // provides FESpace, ...
 #include <python_ngstd.hpp>
 #include "myPreconditioner.hpp"
 
-
+namespace py = pybind11;
 namespace ngcomp
 {
   MyPreconditioner :: MyPreconditioner (shared_ptr<BilinearForm> abfa, Flags& flags)

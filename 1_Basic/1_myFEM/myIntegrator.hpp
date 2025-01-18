@@ -62,5 +62,6 @@ namespace ngfem
 }
 
 #include <python_ngstd.hpp>
+namespace py = pybind11;
 void ExportMyIntegrator(py::module m);
 #endif

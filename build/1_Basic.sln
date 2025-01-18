@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_Basic", "1_Basic.vcxproj", "{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "mylittlengsolve", "..\mylittlengsolve\mylittlengsolve.pyproj", "{1DBD155D-CB9A-4537-BDF3-E90F2F100981}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{1889C350-543A-4DBA-89CD-1DAC921C29D9}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Intel_SSA|Any CPU = Intel_SSA|Any CPU
+		Intel_SSA|x64 = Intel_SSA|x64
+		Intel_SSA|x86 = Intel_SSA|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		Template|Any CPU = Template|Any CPU
+		Template|x64 = Template|x64
+		Template|x86 = Template|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Debug|Any CPU.Build.0 = Debug|x64
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Debug|x64.ActiveCfg = Debug|x64
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Debug|x64.Build.0 = Debug|x64
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Debug|x86.ActiveCfg = Debug|Win32
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Debug|x86.Build.0 = Debug|Win32
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Intel_SSA|Any CPU.ActiveCfg = Intel_SSA|x64
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Intel_SSA|Any CPU.Build.0 = Intel_SSA|x64
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Intel_SSA|x64.ActiveCfg = Intel_SSA|x64
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Intel_SSA|x64.Build.0 = Intel_SSA|x64
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Intel_SSA|x86.ActiveCfg = Intel_SSA|Win32
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Intel_SSA|x86.Build.0 = Intel_SSA|Win32
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Release|Any CPU.ActiveCfg = Release|x64
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Release|Any CPU.Build.0 = Release|x64
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Release|x64.ActiveCfg = Release|x64
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Release|x64.Build.0 = Release|x64
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Release|x86.ActiveCfg = Release|Win32
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Release|x86.Build.0 = Release|Win32
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Template|Any CPU.ActiveCfg = Template|x64
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Template|Any CPU.Build.0 = Template|x64
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Template|x64.ActiveCfg = Template|x64
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Template|x64.Build.0 = Template|x64
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Template|x86.ActiveCfg = Template|Win32
+		{24D9C731-9DE2-4C52-891A-5F0CF9FED18F}.Template|x86.Build.0 = Template|Win32
+		{1DBD155D-CB9A-4537-BDF3-E90F2F100981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DBD155D-CB9A-4537-BDF3-E90F2F100981}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1DBD155D-CB9A-4537-BDF3-E90F2F100981}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1DBD155D-CB9A-4537-BDF3-E90F2F100981}.Intel_SSA|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DBD155D-CB9A-4537-BDF3-E90F2F100981}.Intel_SSA|x64.ActiveCfg = Debug|Any CPU
+		{1DBD155D-CB9A-4537-BDF3-E90F2F100981}.Intel_SSA|x86.ActiveCfg = Debug|Any CPU
+		{1DBD155D-CB9A-4537-BDF3-E90F2F100981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DBD155D-CB9A-4537-BDF3-E90F2F100981}.Release|x64.ActiveCfg = Release|Any CPU
+		{1DBD155D-CB9A-4537-BDF3-E90F2F100981}.Release|x86.ActiveCfg = Release|Any CPU
+		{1DBD155D-CB9A-4537-BDF3-E90F2F100981}.Template|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DBD155D-CB9A-4537-BDF3-E90F2F100981}.Template|x64.ActiveCfg = Debug|Any CPU
+		{1DBD155D-CB9A-4537-BDF3-E90F2F100981}.Template|x86.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
